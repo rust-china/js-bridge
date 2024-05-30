@@ -1,0 +1,15 @@
+[package]
+name = "js-bridge"
+version = "0.0.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "a javas runtime base deno"
+authors = ["sanmu <578595193@qq.com>"]
+homepage = "https://github.com/rust-china/js-bridge"
+exclude = ["/examples"]
+
+[dependencies]
+anyhow = "1.0"
+serde_json = "1.0"
+deno_core = "0.283"
+serde_v8 = "0.192"
