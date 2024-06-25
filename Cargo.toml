@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "a javas runtime base deno"
 authors = ["sanmu <578595193@qq.com>"]
-homepage = "https://github.com/rust-china/js-bridge"
+repository = "https://github.com/rust-china/js-bridge"
 exclude = ["/examples"]
 
 [dependencies]
